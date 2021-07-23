@@ -45,7 +45,7 @@ void vyhra(int score) {
 	// 	plusZprava = ", ale nekde se stala chyba a pokud jsi prekonal hi-score, nemuzeme ho ulozit" + i;
 	// 	konecZpravy = ".";
 	// }
-	cout << "Gratuluji, vyhral jsi" << plusZprava << konecZpravy << endl;
+	cout << "Gratuluji, vyhral jsi na " << score << " pokusu" << plusZprava << konecZpravy << endl;
 }
 
 int main(void) {
